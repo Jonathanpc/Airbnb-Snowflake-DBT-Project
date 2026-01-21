@@ -1,0 +1,14 @@
+aws_dbt_snowflake_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "HECQGUZ-JRC18130"
+      user: "AVNI"
+      password: "SnowingAvni152004$"
+      role: "ACCOUNTADMIN"
+      database: "AIRBNB"
+      warehouse: "COMPUTE_WH"
+      schema: "dbt_schema"
+      threads: 1
+      client_session_keep_alive: False
