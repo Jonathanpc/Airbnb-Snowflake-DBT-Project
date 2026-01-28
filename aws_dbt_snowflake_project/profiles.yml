@@ -3,12 +3,12 @@ aws_dbt_snowflake_project:
   outputs:
     dev:
       type: snowflake
-      account: "HECQGUZ-JRC18130"
-      user: "AVNI"
-      password: "SnowingAvni152004$"
-      role: "ACCOUNTADMIN"
+      account: "<<account>>"
+      user: "<<user>>"
+      password: "<<password>>$"
+      role: "<<role>>"
       database: "AIRBNB"
-      warehouse: "COMPUTE_WH"
-      schema: "dbt_schema"
+      warehouse: "<<warehouse>>"
+      schema: "<<schema>>"
       threads: 1
       client_session_keep_alive: False
