@@ -4,7 +4,7 @@ A comprehensive data transformation pipeline built with dbt (Data Build Tool) an
 
 ## 📋 Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](#overview)
 - [Architecture](#architecture)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -772,3 +772,4 @@ This project is for educational and resume purposes.
 ---
 
 **Note**: This project is part of my data engineering learning journey. The approaches and solutions documented here reflect my understanding and problem-solving process as I learned dbt and Snowflake integration.
+
